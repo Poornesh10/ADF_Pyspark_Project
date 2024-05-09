@@ -1,5 +1,5 @@
 {
-	"name": "DS_casesAndDeaths_Sink",
+	"name": "DS_casesAndDeaths__adls_Sink",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LS_adls",
