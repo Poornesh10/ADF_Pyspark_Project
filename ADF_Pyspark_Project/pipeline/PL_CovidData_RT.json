@@ -1,0 +1,9 @@
+{
+	"name": "PL_CovidData_RT",
+	"properties": {
+		"folder": {
+			"name": "Raw_Target"
+		},
+		"annotations": []
+	}
+}
