@@ -1,6 +1,28 @@
 {
 	"name": "PL_CovidData_RT",
 	"properties": {
+		"activities": [
+			{
+				"name": "Execute_GroupCases_By_country",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/amudalapoornesh_gmail.com#ext#@amudalapoorneshgmail.onmicrosoft.com/Covid_Pyspark_Project/Setup/Covid_Cases 2024-05-09 14:14:23"
+				},
+				"linkedServiceName": {
+					"referenceName": "LS_AzureDatabricks",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
 		"folder": {
 			"name": "Raw_Target"
 		},
